@@ -57,6 +57,14 @@ body {
     color: brown;
   }
 }
+.menu-link-second{
+  text-decoration: none;
+  color: hsl(0, 0%, 21%);
+  font-size: 16px;
+  &:hover {
+    color: brown;
+  }
+}
 .legend {
   font-weight: bold;
 }
@@ -152,7 +160,8 @@ textarea {
     display: flex;
     margin-top: 1%;
     justify-content: space-around;
-    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-color: #f0f0f0;
+    // background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     text-align: center;
     padding: 3%;
     @media (max-width: 425px) {

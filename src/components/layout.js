@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <main>{children}</main>
-      <footer style={{ background: "linear-gradient(to right, #0f0c29, #302b63, #24243e)" }}>
+      <footer style={{ background: "linear-gradient(to right, #0f0c29, #302b63, #24243e)", height: "3vh" }}>
         <div className="container has-text-white">
           ©Copyrights reserved {new Date().getFullYear()},
           {` `}

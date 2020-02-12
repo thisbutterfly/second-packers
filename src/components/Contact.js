@@ -21,10 +21,13 @@ export default class Contact extends Component {
               </span>
               <p className="header is-size-4">Address: </p>
               <span className="subtitle is-size-5 has-text-grey-darker">
-                adress goes here
+                address goes here
               </span>
             </div>
-            <div className="contact-wrap-two column has-text-weight-bold has-text-grey-darker">
+            <div className="column">
+              <img src="https://res.cloudinary.com/dkksvxoms/image/upload/c_scale,h_200,w_200/v1581480553/agrwal-shifting/contacts_yomqgv.png" />
+            </div>
+            <div className="column has-text-weight-bold has-text-grey-darker">
               <p className="header is-size-4">Quick Links </p>
               <Link
               to="/"
